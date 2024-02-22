@@ -1,0 +1,207 @@
+body {
+  overflow-x: auto; 
+  background-color: #f0f0f0;   
+  font-family: "Outfit", sans-serif;
+  font-size: medium;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0;
+
+}
+
+.broglie, .Davisson, .matter {
+  background-color: #f0f0f0;
+  padding: 15px;
+  text-align: center;
+}
+
+.wave{
+ background-color: #f0f0f0;
+  padding: 15px;
+  text-align: start;
+}
+
+.Heisenberg{
+  background-color: #f0f0f0;
+  padding: 15px;
+  text-align: start;
+}
+
+#wave{
+  text-align: center;
+}
+
+/* Styles for heading */
+.heading {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid wheat;
+  padding: 20px;
+  margin: 10px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column; 
+}
+
+/* Typography */
+.acme-regular { 
+  font-family: 'Acme', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background: linear-gradient(to right, #000000, #82797a, #000000);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  display: inline-block;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Container for text and image */
+.text-and-img-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Paragraph styling */
+.head-p {
+  line-height: 1.5;
+  flex: 1;
+  text-align: start;
+}
+
+/* YouTube video styling */
+.yt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
+
+.YouTube {
+  border-radius: 8px;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-left: 10px; 
+  vertical-align: middle;
+}
+
+/* Adjusting YouTube size for different screen sizes */
+@media screen and (min-width: 600px) {
+  .YouTube {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .YouTube {
+    width: calc(33.3333% - 20px);
+  }
+}
+
+/* Container for side headings */
+.upper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Styles for side heading */
+.side-heading {
+  background-color: antiquewhite;
+  flex: 1;
+  margin-left: 10px;
+  border: 2px solid wheat;
+}
+
+.side-heading h2 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.side-heading p {
+  line-height: 1.5;
+  padding: 20px;
+  margin: 5px 10px 10px 10px;
+}
+
+.side-heading img, .broglie-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Additional styling */
+.formula {
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 12px;
+}
+
+.formula-p {
+  text-align: start;
+}
+
+.dav-p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 470px;
+  width: 350px;
+}
+
+.side-heading {
+  text-align: center;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+.wave-para {
+  margin-top: 15px;
+}
+
+.yts {
+  display: flex;
+  flex-direction: column; /* Ensure this is set and not overridden */
+  /* Consider aligning content vertically: */
+  align-items: center;
+  margin-top: 15px;
+}
+
+.YouTubes {
+  margin: 10px; /* Optional: adjust margin as needed */
+  /* Remove any width/height settings that might interfere with flexbox: */
+ 
+  border-radius: 10px;
+}
+
+/* Optional media queries for responsive layout: */
+@media screen and (min-width: 768px) {
+  .yts {
+    /* Adjust column count for wider screens: */
+    flex-wrap: wrap;
+  }
+}
+
+.head-last {
+  font-family: "Cinzel", serif;
+   font-size: x-large;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+
